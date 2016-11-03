@@ -3,4 +3,4 @@
 set -e
 
 echo "hosts = [{host = \"$ELASTICSEARCH_URL\"}]" >> \
-  /usr/local/lib/cerebro/application.conf
+  /usr/local/lib/cerebro/conf/application.conf
