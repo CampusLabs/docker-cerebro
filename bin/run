@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec containerpilot -config file:///code/etc/containerpilot.json cerebro

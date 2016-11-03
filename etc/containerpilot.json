@@ -1,0 +1,12 @@
+{
+  "consul": "{{ .CONSUL_URL }}:8500",
+  "preStart": "/code/bin/pre-start",
+  "services": [
+    {
+      "name": "cerebro",
+      "port": 9000,
+      "poll": 10,
+      "ttl": 30
+    }
+  ]
+}
