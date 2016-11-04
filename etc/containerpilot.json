@@ -5,6 +5,7 @@
     {
       "name": "cerebro",
       "port": 9000,
+      "health": "curl -fso /dev/null localhost:9000",
       "poll": 10,
       "ttl": 30
     }
