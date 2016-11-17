@@ -4,7 +4,7 @@ ENV CONTAINERPILOT_VERSION 2.4.4
 RUN curl -L https://github.com/joyent/containerpilot/releases/download/$CONTAINERPILOT_VERSION/containerpilot-$CONTAINERPILOT_VERSION.tar.gz | \
       tar xz -C /usr/local/bin/
 
-ENV CEREBRO_VERSION 0.2.0
+ENV CEREBRO_VERSION 0.3.1
 RUN mkdir /usr/local/lib/cerebro && \
     curl -L https://github.com/lmenezes/cerebro/releases/download/v$CEREBRO_VERSION/cerebro-$CEREBRO_VERSION.tgz | \
       tar xz -C /usr/local/lib/cerebro/ --strip-components 1 && \
