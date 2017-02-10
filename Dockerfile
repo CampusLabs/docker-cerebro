@@ -15,7 +15,7 @@ WORKDIR /code
 COPY bin /code/bin
 COPY etc /code/etc
 
-ENV CONSUL_URL consul
+ENV CONSUL_URL http://consul:8500
 ENV ELASTICSEARCH_URL http://elasticsearch:9200
 
 EXPOSE 9000
