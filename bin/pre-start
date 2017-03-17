@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-set -e
-
-echo "hosts = [{host = \"$ELASTICSEARCH_URL\"}]" >> \
-  /usr/local/lib/cerebro/conf/application.conf
