@@ -5,4 +5,6 @@ set -e
 echo "hosts = [{host = \"$ELASTICSEARCH_URL\"}]" >> \
   /usr/local/lib/cerebro/conf/application.conf
 
+rm -fr /usr/local/lib/cerebro/RUNNING_PID
+
 exec cerebro
